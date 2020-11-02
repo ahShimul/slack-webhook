@@ -9,7 +9,7 @@ Send workflow status notifications to Slack.
 
 ```yaml
 steps:
-  - uses: Mediability/slack-webhook@master
+  - uses: ahShimul/slack-webhook@master
     if: always()
     with:
       status: ${{ job.status }}
